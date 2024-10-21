@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Full Stack Landing Page</title>
+    <!----BootStrap CSS Link----->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <!----CSS Link----->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!----Icon Link----->
+    <script src="https://kit.fontawesome.com/2176c14d9c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--------nav bar--------------->
+    <nav class="navbar navbar-expand-lg  bg-dark navbar-dark  m-5 p-1 fixed-top"  >
+      <div class="container-fluid ">
+        <a class="navbar-brand text-danger"  href="#logo"> <img src="https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png" alt="java-logo" width="100" height="50" class="d-inline-block align-text-center"></a>
+        
+       
+        <!-----nav button--------->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <!-----click on button------>
+        
+            <span class="navbar-toggler-icon "></span>
+         
+       
+      </button>
+      <!-------nav-items------>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#course-modules">Course Modules</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link active" href="#register">Registration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+   
+
+   <!--------Home page-----------> 
+<main id="home">
+  <div class="container-fluid home">
+    <div class="row  p-5">
+      <div class="col text-center m-5">
+        <h1 class="fs-1 text-danger p-5">Become a Java Full stack Developer with Passionately skills.</h1>
+        <p class="fs-4 text-warning p-3">Master the Front-End and Back-End Development with Java.
+          Learn to code in Java — a robust programming language used to create software, web and mobile apps, and more.
+        </p>
+      <!-- <button class="btn btn-primary m-5" type="submit" id="register"></button> -->
+      <a href="#register" class="btn btn-primary m-3">ENROLL NOW</a>
+    
+      </div>
+    </div>
+  </div>
+</main>
+
+<!------About section------------------->
+<section id="about" class="bg-secondary">
+<div class="row  w-100 ">
+      <div class="col-md-7 p-5 ">
+        <img src="https://img.freepik.com/premium-photo/business-training-concept-training-webinar-elearning-financial-technology-communication-concept_161452-4180.jpg" class="img-fluid rounded" alt="About">
+      </div>
+      <div class="col-md-5 pt-3">
+        <div class="card-body">
+          <h5 class="card-title text-warning fs-1 bg-primary text-center">About Us</h5>
+          <p class="card-text text-danger fs-5 fw-bold">This comprehensive course covers everything you need to become a proficient full stack developer using Java. 
+            From building responsive frontend interfaces to creating scalable backend systems, we’ve got you covered.</p>
+            <p class="card-text text-danger fs-5 fw-bold">We believe our self-confidence and the effectiveness of our training. Our goal improve your development skills. </p>
+          <p class="card-text "><small class="text-muted">Learn Better way to have Confidence</small></p>
+        </div>
+      </div>
+    </div>
+ 
+</section>
+
+<!-----Courses Catalog------------------->
+<section id="course-modules" class=" p-5 bg-primary">
+  <h1 class=" text-warning bg-danger text-center p-2 "> Course Modules</h1>
+   <div class="row p-5  gap-5">
+
+    <!----Front-End-------->
+    <div class="col-md-3  p-2 rounded m-3 shadow  bg-body rounded">
+      <div class="text-center">
+      <img src="https://dhinatechnologies.com/wp-content/uploads/2024/08/Front-End-UI-Technologies-2048x2048.webp" height="100px" width="100px" alt="frond-end logo" class="m-3 mx-auto">
+      </div>
+      <h4 class="text-warning text-center">Front-End</h4>
+      <ul  class="text-danger">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>JavaScript</li>
+      </ul>
+      <button type="button" class="btn btn-primary m-3">Read More</button>
+    </div>
+
+    <!------Back-End--------->
+    <div class="col-md-3 bg-dark p-2 rounded m-3">
+      <div class="text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmLwFQikTt4cCe63If6gSyaxpCPpJbFpf1fw&s" height="100px" width="100px" alt="frond-end logo" class="m-3 mx-auto">
+        </div>
+      <h4 class="text-warning text-center">Back-End</h4>
+      <ul class="text-danger">
+        <li>Java</li>
+        <li>OOPS Concept</li>
+        <li>DataStructures</li>
+        <li>SpringBoot Java Framework</li>
+      </ul>
+      <button type="button" class="btn btn-primary m-3">Read More</button>
+    </div>
+
+    <!-------DataBases-->
+    <div class="col-md-3 bg-warning p-2 rounded m-3">
+      <div class="text-center">
+        <img src="https://www.kingswaysoft.com/Frontend/Images/resources/industry-analysis/top-dbms/distributed-dbms.svg?v2" height="100px" width="100px" alt="frond-end logo" class="m-3 mx-auto">
+        </div>
+      <h4 class="text-warning text-center">DataBases</h4>
+      <ul class="text-danger">
+        <li>JDBC</li>
+        <li>MongoDB</li>
+        <li>Crud Operations</li>
+        <li>Transaction State</li>
+      </ul>
+      <button type="button" class="btn btn-primary m-3">Read More</button>
+    </div>
+   </div>
+</section>
+
+<!-----Registration------->
+<section id="register" class="p-5 bg-secondary" >
+  <h1 class="text-center fs-1 text-warning bg-danger p-2">Registration</h1>
+    <!---overall row-------------->
+    <div class="row w-100  h-100 gap-3" >
+      <!------column 1-->
+      <div class="col-md-7 p-5 mt-5">
+        <img src="https://img.freepik.com/premium-photo/online-registration-form-modish-form-filling_31965-464693.jpg?ga=GA1.1.579740703.1728964273&semt=ais_hybrid" class="img-fluid rounded" alt="register">
+      </div>
+       <!------column 2-->
+     <div class="col-sm-12 col-md-4 col-lg-4 bg-dark  mt-5 p-3">
+        <h1 class="fs-1 text-center text-warning ">Register Form</h1>
+        <!----form---------->
+        <form class="col">
+          <!-------row 1------->
+        <div class="row mt-5">
+          <div class="col-md-6  mt-2">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          
+          <div class="col-md-6  mt-2">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+      </div>
+       <!-----row 2------->
+    <div class="row pt-3 mt-2">
+        
+     <div class="col-md-6  mt-2">
+            <input type="text" class="form-control  " placeholder="Email" aria-label="Email">
+          </div>
+            
+          <div class="col-md-6 mt-2">
+            <input type="number" class="form-control " placeholder="Contact No" aria-label="Contact No">
+          </div>
+        </div>
+        <!---row 3---------> 
+      <div class="row pt-3 mt-2">
+          <div class="col-md-6  mt-2">
+            <input type="number" class="form-control" placeholder="Year of passout" aria-label="Year of passout">
+        </div>
+          <div class="col-md-6  mt-2">
+        <input type="text" class="form-control" placeholder="Department" aria-label="Department">
+        </div>
+      </div>
+       <!----form col--------->  
+        <div class="col pt-3">
+          <button type="submit" class="btn btn-danger ">Register</button>
+        </div>
+        </form>
+      </div>
+</section>
+
+<!----Contact---------->
+<section id="contact" class="bg-primary pt-5 ps-2">
+  <h1 class="text-center fs-1 text-warning m-5 bg-danger p-2">Contact Us</h1>
+  <div class="row  w-100 m-md-3 p-3">
+   <div class="col md-6 text-warning">
+  <h3 class=" fs-2 fw-bold">Get In touch</h3>
+  <p class=" fs-5"><i class="fa-solid fa-phone pe-2"></i> +91 9025352112</p>
+  <p class=" fs-5"><i class="fa-solid fa-envelope pe-2"></i> mohammedalith713@gmail.com</p>
+  <p class=" fs-5"><i class="fa-solid fa-globe pe-2"></i>www.javafs.com</p>
+  <!-------------Form-------->
+  <form class="col md-2 bg-dark text-light p-3 ">
+   <h1 class="text-center fs-2 text-warning">Send a message</h1>
+  <!------row1-->
+  <div class="row ">
+    <div class="col-md-6 text-danger">
+      <label for="firstName" class="form-label">First Name</label>
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+     
+    <div class="col-md-6 text-danger">
+      <label for="lastName" class="form-label">Last Name</label>
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+</div>
+
+<!-----row 2----------->
+<div class="row pt-3">
+   
+<div class="col-md-6 text-danger">
+      <label for="email" class="form-label">Email</label>
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+    
+    <div class="col-md-6 text-danger">
+      <label for="Mobile" class="form-label">Mobile</label>
+      <input type="number" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+  </div>
+ 
+  <div class="col pt-3 text-danger">
+  <label for="textArea" class="form-label">Message</label>
+  <textarea class="form-control" id="textArea"  rows="3"></textarea>
+</div>
+
+  <div class="col pt-3">
+    <button type="submit" class="btn btn-danger ">Send</button>
+  </div>
+</div>
+
+<!------Map Location---------->
+<div class="col-md-6 pt-3">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124303.48277019117!2d80.03718381259009!3d13.19491181196024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a527ca02b0d8031%3A0x31bd8f5284276a0d!2sRed%20Hills%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1729076255067!5m2!1sen!2sin" width="500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+</div>
+</div>
+
+</section>
+<!----BootStrap JavaScript Link----->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

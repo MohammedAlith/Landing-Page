@@ -1,0 +1,133 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+
+.navbar{
+background-color: rgb(35, 4, 10) !important;
+position: fixed !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover  
+{
+color: rgb(210, 11, 51);
+ background-color: rgb(203, 113, 48);
+
+}
+
+
+
+
+/****home design   ****/
+#home{
+  
+animation-name: interact;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+
+
+@keyframes interact{
+  25%{
+    background-image: url("https://www.mytaskpanel.com/wp-content/uploads/2023/04/consulting-blog-09.webp");
+   filter: brightness(80%);
+  }
+50%{
+ background-image: url("https://media.istockphoto.com/id/1432248858/photo/smiling-male-programmer-explains-a-coding-technique-to-a-new-female-colleague-while-sitting.jpg?s=1024x1024&w=is&k=20&c=6nD5lpCVBVlvyb1bwFI-UP8ba9QXlis0vIBRdHbH-So=");
+ filter: brightness(80%);
+}
+100%{
+  background-image: url("https://img.freepik.com/premium-photo/coder-engineer-working-with-his-pc_1293807-7702.jpg?w=740");
+  filter: brightness(80%);
+}
+}
+
+
+/*****About Design******/
+  #about{
+  animation-name: about;
+animation-duration: 5s;
+}
+
+
+
+@keyframes about{
+  0%{
+    transform: translateX(-150%);
+  
+  }
+  100%{
+     transform: translateX(0);
+  }
+}
+
+/**********Course design********/
+#course-modules>div>div:hover{
+  transform: scale(1.2);
+  }
+
+#course-modules{
+  animation-name: course;
+  animation-duration: 5s;
+}
+@keyframes course{
+  0%{
+    transform: translateX(150%);
+  
+  }
+  100%{
+     transform: translateX(0);
+  }
+}
+
+/**********Register  design********/
+#register{
+  animation-name: bottom;
+  animation-duration: 5s;
+}
+@keyframes register{
+  0%{
+    transform: translatey(150%);
+  
+  }
+  100%{
+     transform: translatey(0);
+  }
+}
+/*****contact Design******/
+#contact{
+  animation-name: contact;
+  animation-duration: 5s;
+}
+@keyframes contact{
+  0%{
+    transform: translatey(-150%);
+  
+  }
+  100%{
+     transform: translatey(0);
+  }
+}
+
+/*********Responsive to all screens**********/
+@media only screen and (max-width:992px){
+  .navbar-dark .navbar-nav .nav-link.active{
+    position: relative !important;
+    left:50%;
+    display: inline-flex;
+padding: 10px;
+    }
+    
+}
+@media only screen and (min-width:300px ) and (max-width:1100px) {
+  #contact iframe{
+    width:280px;
+  }
+}
+
+
+
+
